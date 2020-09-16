@@ -1,0 +1,137 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  min-width: 102.4rem;
+  margin: 0;
+  padding: 0;
+  padding-top: 2rem;
+
+  font-family: "Kelly Slab", "Times New Roman", cursive;
+  font-size: 1.5rem;
+  line-height: 2.156rem;
+  font-weight: 400;
+  background-image: url("../img/little-ninja.png");
+}
+
+a {
+  color: #363636;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 102.4rem;
+  min-height: 92rem;
+  margin: 0 auto;
+  background-color: #E1E1E1;
+}
+
+.wrapper {
+  padding-top: 25rem;
+  padding-left: 38rem;
+}
+
+.cv-title {
+  margin: 0;
+  padding: 0;
+  padding-left: 4rem;
+  padding-bottom: 0.6rem;
+  font-weight: 400;
+}
+
+.cv-desc {
+  position: relative;
+}
+
+.span-1 {
+  position: absolute;
+  top: -21.5rem;
+  left: 22rem;
+  transform: rotate(90deg);
+}
+
+.span-2 {
+  position: absolute;
+  top: -1.7rem;
+  left: 44.5rem;
+}
+
+.span-3 {
+  position: absolute;
+  top: -18.5rem;
+  left: 53.6rem;
+  transform: rotate(270deg);
+}
+
+.cv-list {
+  position: relative;
+}
+
+.item-name {
+  position: absolute;
+  top: -5rem;
+  left: 13rem;
+}
+
+.item-contacts {
+  position: absolute;
+  top: -30rem;
+  left: 65rem;
+  transform: rotate(-60deg);
+}
+
+.item-my-goals {
+  position: absolute;
+  top: -26rem;
+  left: -7rem;
+  transform: rotate(60deg);
+}
+
+.item-skills {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  transform: rotate(180deg);
+}
+
+.item-sedona {
+  position: absolute;
+  top: 10rem;
+  left: 80rem;
+}
+
+.item-pages {
+  position: absolute;
+  left: 55rem;
+  top: 7rem;
+  transform: rotate(270deg);
+}
+
+.item-courses {
+  position: absolute;
+  top: -65rem;
+  left: 14rem;
+  transform: rotate(180deg);
+}
+
+.cv-table,
+.cv-table td {
+  border: 0.1rem solid grey;
+  border-collapse: collapse;
+}
+
+.cv-table td {
+  padding: 0.5rem 1rem;
+}
+
+.item-english {
+  position: absolute;
+  top: -5rem;
+  left: 80rem;
+}
